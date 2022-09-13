@@ -1,0 +1,36 @@
+.tform{
+    padding: 40px;
+    margin-top: 10vh;
+    z-index: 1;
+    color: white !important;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.tformbck{
+    position: relative;
+    display: block;
+    content: "";
+    width: 100%;  
+   
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 40px;
+    z-index: -1;
+}
+.signin{
+    height: 40em;
+    top:-35em;
+}
+.login{
+    height: 35em;
+    top:-30em;
+}
+input{
+    border: none !important;
+    outline: white !important;
+    border-bottom: solid 2px white !important;
+    border-radius: 0% !important;
+    background: transparent !important;
+}
